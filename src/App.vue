@@ -1,12 +1,26 @@
 <template>
+  <div class="top">
+    <h1>GESTION DES VISITEURS</h1>
+  </div>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Ajout</router-link> |
+    <router-link to="/listage">Liste</router-link> |
+    <router-link to="/bilan">Bilan</router-link>
   </nav>
   <router-view/>
 </template>
 
 <style>
+
+@font-face {
+  font-family: Font;
+  src: url(/src/assets/font/Poppins.ttf);
+}
+
+* {
+  font-family: Font;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
