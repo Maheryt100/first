@@ -1,7 +1,7 @@
 <template>
-  <div class="top">
+  <head class="top">
     <h1>GESTION DES VISITEURS</h1>
-  </div>
+  </head>
   <nav>
     <router-link to="/">Ajout</router-link> |
     <router-link to="/listage">Liste</router-link> |
@@ -20,26 +20,15 @@
 
 * {
   font-family: Font;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+ 
+.top {
+  display: block;
 }
 
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
